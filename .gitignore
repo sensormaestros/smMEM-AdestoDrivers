@@ -1,0 +1,13 @@
+# Object files
+*.o
+*.d
+*.elf
+*.mk
+
+# Libraries
+#*.lib
+#*.a
+
+# Executables
+
+# Debug files
