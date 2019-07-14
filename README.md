@@ -1,8 +1,5 @@
 ## Welcome to the Sensor Maestros Adesto Technologies Serial Memory Driver/Demo Page
-
-You can use the [editor on GitHub](https://github.com/sensormaestros/smMEM-AdestoDrivers/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This page provides a high level overview of the Sensor Maestros firmware developed for Adesto Technologies Serial Memory Devices and provides a demo that can be used with the smWSP and smMEM products to read, write, erase all smMEM Adesto based products.  The firmware demo is targeted to use the EFM32 Leopard Starter Kit in combination with the smWSP(Wireless Sensor Platform) board that allows smMEM, smSENSR, smCOM, smRF, and smPWR products to be plugged into the smBlocks on the smWSP board.  The smWSP can be directly connected to any of the Silicon Labs EFM32 and EFR32 STK's with the 20pin expansion header.  The demo provides a means to meaure Power Consumption for any of the operations and provides an easy to use GUI that is displayed on the LCD of the EFM32 STK for any of the operations such as Write, Read, Erase, and Power Down using the Silicon Labs Power Profiler that is available with the FREE Silicon Labs Simplicity Studio.  The drivers can easily be adapted to other MCU/SOC's of your choice but will not offer the Power Profiler capability and Menu Command Selection via the LCD available on the Silicon Labs EFM32/EFR STK's.  
 
 ### Project Directory Structure
 .settings -> Project Settings for use with Eclipse/Simplicity Studio IDE  
