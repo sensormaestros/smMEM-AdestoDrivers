@@ -1,10 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to the Sensor Maestros Adesto Technologies Serial Memory Driver/Demo Page
 
 You can use the [editor on GitHub](https://github.com/sensormaestros/smMEM-AdestoDrivers/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdow
+### Project Directory Structure
+.settings -> Project Settings for use with Eclipse/Simplicity Studio IDE  
+BSP -> This folder contains the source file for the Trace capability which can be used with the Energy Profiler.  
+CMSIS -> This folder contains the the Leopard Gecko startup files.  
+Docs -> This folder contains PDF's of the Quick Start Guide and the Porting Guide.  
+Drivers -> This folder contains the EFM32 Driver files for capacitive sensing, RTC, LCD, etc.  
+emlib -> This folder contains EFM32 library files/drivers for various pieces of functionality.  
+src -> This folder contains the source code for the demo itself.  
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
